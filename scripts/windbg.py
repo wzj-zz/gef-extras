@@ -420,5 +420,8 @@ GefAlias("s", "grep", completer_class=gdb.COMPLETE_LOCATION)
 GefAlias("pa", "advance", completer_class=gdb.COMPLETE_LOCATION)
 GefAlias("t", "stepi", completer_class=gdb.COMPLETE_LOCATION)
 GefAlias("p", "nexti", completer_class=gdb.COMPLETE_LOCATION)
+GefAlias("k", "info stack")
 GefAlias("kp", "info stack")
 GefAlias("uf", "disassemble")
+
+GefAlias("gu", "finish")

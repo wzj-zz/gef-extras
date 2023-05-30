@@ -41,6 +41,7 @@ This plugin is a set of commands, aliases and extensions to mimic some of the mo
   - `tbp` : `tbreak`
   - `s` : `grep`
   - `pa` : `advance`
-  - `kp` : `info stack`
-  - `ptc` : `finish`
+  - `k/kp` : `info stack`
+  - `ptc` : `run until next call or return`
+  - `gu` : `finish`
   - `uf` : `disassemble`
