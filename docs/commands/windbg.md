@@ -41,7 +41,14 @@ This plugin is a set of commands, aliases and extensions to mimic some of the mo
   - `tbp` : `tbreak`
   - `s` : `grep`
   - `pa` : `advance`
-  - `k/kp` : `info stack`
+  - `kp` : `info stack`
   - `ptc` : `run until next call or return`
-  - `gu` : `finish`
   - `uf` : `disassemble`
+
+## custom by wzj-zz ##
+### Aliases ###
+  - `k` : `info stack`
+  - `gu` : `finish`
+
+  - `pfh` : `pf $rip --lang hex --length`
+  - `pfc` : `pf $rip --lang c --length`

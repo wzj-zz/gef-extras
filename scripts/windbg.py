@@ -420,8 +420,15 @@ GefAlias("s", "grep", completer_class=gdb.COMPLETE_LOCATION)
 GefAlias("pa", "advance", completer_class=gdb.COMPLETE_LOCATION)
 GefAlias("t", "stepi", completer_class=gdb.COMPLETE_LOCATION)
 GefAlias("p", "nexti", completer_class=gdb.COMPLETE_LOCATION)
-GefAlias("k", "info stack")
 GefAlias("kp", "info stack")
 GefAlias("uf", "disassemble")
 
+#--------------------------------------------------------------------------------
+# custom by wzj-zz
+#--------------------------------------------------------------------------------
+# Aliases
 GefAlias("gu", "finish")
+GefAlias("k", "info stack")
+
+GefAlias("pfh", "pf $rip --lang hex --length")
+GefAlias("pfc", "pf $rip --lang c --length")
